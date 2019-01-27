@@ -48,6 +48,7 @@ public class SeleniumDemo {
         System.out.println("Page is :" + webDriver.getTitle());
 
         webDriver.close();
+
     }
 
 }

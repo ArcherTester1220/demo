@@ -20,4 +20,29 @@ public class Student {
 
     public Student() {
     }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public List<BookInfo> getInfos() {
+        return infos;
+    }
+
+    public void setInfos(List<BookInfo> infos) {
+        this.infos = infos;
+    }
 }

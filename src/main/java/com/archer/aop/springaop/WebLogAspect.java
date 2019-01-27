@@ -5,6 +5,8 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -15,6 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 @Slf4j
 public class WebLogAspect {
+
+    private Logger log = LoggerFactory.getLogger(this.getClass());
 
 
     @Pointcut("execution(public * com.archer.controller.HelloController.*.*(..))")

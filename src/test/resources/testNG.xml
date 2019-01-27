@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Suite">
+    <suite-files>
+        <!--<suite-file path="annation_test.xml"/>-->
+        <!--<suite-file path="annation_retry.xml"/>-->
+        <!--<suite-file path="annation_beanshell.xml"/>-->
+        <!--<suite-file path="annation_testannationtransform.xml"/>-->
+        <suite-file path="annation_methodannationtransform.xml"/>
+    </suite-files>
+</suite>

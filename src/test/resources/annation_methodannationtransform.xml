@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--allow-return-values="false" 忽略返回参数-->
+<suite name="All Test Suite" group-by-instances="true">
+
+    <!--<listeners>-->
+    <!--<listener class-name="com.archer.testng.annationtransform.AnnationTestTransform3"/>-->
+    <!--</listeners>-->
+
+    <test verbose="2" preserve-order="true" name="Test">
+        <classes>
+            <class name="com.archer.testng.methodtransform.MethodInterceptorsTest"/>
+        </classes>
+    </test>
+
+
+</suite>

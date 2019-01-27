@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--allow-return-values="false" 忽略返回参数-->
+<suite name="test suite" allow-return-values="true">
+    <test name="test annation">
+        <groups>
+            <run>
+                <include name="test"/>
+                <exclude name="test3"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.archer.testng.test.AnnotationTest"/>
+        </classes>
+    </test>
+</suite>

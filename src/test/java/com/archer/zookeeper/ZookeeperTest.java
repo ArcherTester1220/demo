@@ -29,14 +29,14 @@ public class ZookeeperTest {
         zooChildren = client.getPath(zpath);
         for (String child : zooChildren) {
             if (child == "") {
-                log.info("{},子节点为空！", zpath);
+//                log.info("{},子节点为空！", zpath);
             } else {
-                log.info("{},子节点:{}", zpath, child);
+//                log.info("{},子节点:{}", zpath, child);
             }
         }
-        log.info("同步读取节点内容：{}", new String(client.getDataSync(zpath)));
+//        log.info("同步读取节点内容：{}", new String(client.getDataSync(zpath)));
         client.setData(zpath, "123".getBytes());
-        log.info("同步读取节点内容：{}", new String(client.getDataSync("/dubbo/A")));
+//        log.info("同步读取节点内容：{}", new String(client.getDataSync("/dubbo/A")));
         client.setData("/dubbo/A", "456".getBytes());
 
         client.getDataASync(zpath, new ZkDataCallback());
@@ -49,8 +49,8 @@ public class ZookeeperTest {
     private static class ZkDataCallback implements AsyncCallback.DataCallback {
         @Override
         public void processResult(int i, String s, Object o, byte[] bytes, Stat stat) {
-            log.info("异步返回结果：rc={},path={},data={}", i, s, new String(bytes));
-            log.info("异步读取Stat：czxid={},mzxid={},version={}", stat.getCzxid(), stat.getMzxid(), stat.getVersion());
+//            log.info("异步返回结果：rc={},path={},data={}", i, s, new String(bytes));
+//            log.info("异步读取Stat：czxid={},mzxid={},version={}", stat.getCzxid(), stat.getMzxid(), stat.getVersion());
         }
     }
 }

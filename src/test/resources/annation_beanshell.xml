@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--allow-return-values="false" 忽略返回参数-->
+<suite name="All Test Suite" group-by-instances="true">
+    <test verbose="2" preserve-order="true" name="Test">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell">
+                    <![CDATA[groups.containsKey("test1")]]>
+                </script>
+            </method-selector>
+        </method-selectors>
+
+        <classes>
+            <class name="com.archer.testng.beanshell.BeanShellTest"/>
+        </classes>
+    </test>
+</suite>

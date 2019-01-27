@@ -1,9 +1,9 @@
-package com.archer.service.impl;
+package com.archer.ssm.service.impl;
 
 
-import com.archer.bean.MapperStudent;
-import com.archer.mapper.StudentMapper;
-import com.archer.service.StudentService;
+import com.archer.ssm.bean.MapperStudent;
+import com.archer.ssm.mapper.StudentMapper;
+import com.archer.ssm.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

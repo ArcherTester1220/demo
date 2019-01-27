@@ -1,6 +1,6 @@
-package com.archer.mapper;
+package com.archer.ssm.mapper;
 
-import com.archer.bean.MapperStudent;
+import com.archer.ssm.bean.MapperStudent;
 
 
 public interface StudentMapper {

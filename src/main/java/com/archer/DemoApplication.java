@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.archer.ats.mapper")
+@MapperScan(basePackages = "com.archer.ssm.mapper")
 @EnableAspectJAutoProxy
 public class DemoApplication {
 

@@ -1,6 +1,6 @@
-package com.archer.service;
+package com.archer.ssm.service;
 
-import com.archer.bean.MapperStudent;
+import com.archer.ssm.bean.MapperStudent;
 
 public interface StudentService {
 

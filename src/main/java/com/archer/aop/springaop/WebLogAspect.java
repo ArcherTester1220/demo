@@ -21,7 +21,7 @@ public class WebLogAspect {
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
 
-    @Pointcut("execution(public * com.archer.controller.HelloController.*.*(..))")
+    @Pointcut("execution(public * com.archer.ssm.controller.HelloController.*.*(..))")
     public void webLog() {
     }
 

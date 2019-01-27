@@ -1,4 +1,4 @@
-package com.archer.bean;
+package com.archer.ssm.bean;
 
 
 import lombok.AllArgsConstructor;

@@ -1,9 +1,9 @@
-package com.archer.controller;
+package com.archer.ssm.controller;
 
 
 import com.archer.annation.TimerAnnotion;
-import com.archer.bean.MapperStudent;
-import com.archer.service.StudentService;
+import com.archer.ssm.bean.MapperStudent;
+import com.archer.ssm.service.StudentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

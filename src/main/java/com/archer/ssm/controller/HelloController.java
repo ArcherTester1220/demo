@@ -1,7 +1,7 @@
-package com.archer.controller;
+package com.archer.ssm.controller;
 
 import com.archer.annation.AopAnnation;
-import com.archer.bean.Student;
+import com.archer.ssm.bean.Student;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;

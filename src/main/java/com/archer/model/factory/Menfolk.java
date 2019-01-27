@@ -1,4 +1,4 @@
-package com.archer.mode.factory;
+package com.archer.model.factory;
 
 public class Menfolk implements Human {
     @Override

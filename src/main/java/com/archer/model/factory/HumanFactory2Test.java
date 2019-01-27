@@ -1,4 +1,4 @@
-package com.archer.mode.factory;
+package com.archer.model.factory;
 
 public class HumanFactory2Test {
     public static void main(String[] args) {

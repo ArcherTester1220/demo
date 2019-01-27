@@ -1,4 +1,4 @@
-package com.archer.mode.factory;
+package com.archer.model.factory;
 
 import java.lang.reflect.UndeclaredThrowableException;
 

@@ -1,4 +1,4 @@
-package com.archer.aop;
+package com.archer.aop.javassist;
 
 import javassist.*;
 
@@ -30,11 +30,7 @@ public class ClassByteTranslator implements ClassFileTransformer {
             }
             return ctClass.toBytecode();
 
-        } catch (NotFoundException e) {
-            e.printStackTrace();
-        } catch (CannotCompileException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (NotFoundException | CannotCompileException | IOException e) {
             e.printStackTrace();
         }
         return new byte[0];

@@ -1,4 +1,4 @@
-package com.archer.aop;
+package com.archer.aop.javassist;
 
 import java.lang.instrument.Instrumentation;
 

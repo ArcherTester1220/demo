@@ -64,7 +64,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Premain-Class>com.archer.aop.MyClassFileTransformer</Premain-Class>
+                            <Premain-Class>com.archer.aop.javassist.MyClassFileTransformer</Premain-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                         </manifestEntries>
                     </archive>

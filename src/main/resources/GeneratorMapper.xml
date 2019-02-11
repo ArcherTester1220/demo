@@ -46,7 +46,7 @@
         </javaModelGenerator>
 
         <!-- 生成MyBatis的Mapper.xml文件，targetPackage指定mapper.xml文件的包名， targetProject指定生成的mapper.xml放在eclipse的哪个工程下面 -->
-        <sqlMapGenerator targetPackage="mapping" targetProject="src/main/resources/">
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources/">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
 
